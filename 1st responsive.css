@@ -1,0 +1,158 @@
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .company-logo img {
+        width: 150px;
+    }
+
+    .header-section {
+        position: relative;
+        top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    .header-left {
+        width: 100%;
+        margin-bottom: 6.5rem;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .header-right {
+        position: relative;
+        margin-bottom: 3.5rem;
+        top: 2px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .button {
+        min-width: 120px;
+        min-height: 40px;
+    }
+
+    .feature-section {
+        flex: 0 0 calc(25% - 20px);
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .first-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .features-card {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        margin-bottom: 70px;
+        flex: 0 0 250px;
+    }
+
+    .feature-section:hover .features-card {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px black;
+        flex: 0 0 250px;
+    }
+
+    .image-container {
+        position: relative;
+        flex: 0 0 250px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .packages-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .subfooter {
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+
+    .packages-table td {
+        font-weight: bold;
+    }
+
+    .subfooter {
+        margin-top: 3.5rem;
+        background-color: #313133;
+        color: white;
+        /* padding: 20px 0; */
+        height: 15vh;
+    }
+
+    .subfooter-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .subfooter-container a {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .horizontal-links{
+        position: absolute;
+        gap: 2rem;
+        left: 7px;
+        display: none;
+    }
+
+    .navigation{
+        overflow: hidden;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .header-section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .first-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .packages-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .subfooter {
+        margin-top: 3rem;
+        height: 20vh;
+    }
+
+}
